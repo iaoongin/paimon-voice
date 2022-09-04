@@ -8,10 +8,7 @@
 
 # 演示
 
-<video id="video" controls="" preload="none">
-    <source id="mp4" src="assets/paimon-voice-demo.mp4" type="video/mp4">
-</video>
-
+[assets/paimon-voice-demo.mp4](https://github.com/iaoongin/paimon-voice/raw/main/assets/paimon-voice-demo.mp4)
 # 安装依赖
 
 ```
