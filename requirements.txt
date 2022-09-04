@@ -1,0 +1,6 @@
+easyocr
+numpy
+torch
+pyttsx3
+sentence-transformers
+text2vec
