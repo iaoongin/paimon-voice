@@ -9,7 +9,7 @@
 # 演示
 
 <video id="video" controls="" preload="none">
-    <source id="mp4" src="./assets/paimon-voice-demo.mp4" type="video/mp4">
+    <source id="mp4" src="assets/paimon-voice-demo.mp4" type="video/mp4">
 </video>
 
 # 安装依赖
