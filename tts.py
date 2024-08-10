@@ -1,4 +1,4 @@
-from util import log_factory
+from util import log_factory, paimon_speeker
 import pyttsx3
 import threading
 import subprocess
@@ -33,8 +33,8 @@ class TTSThread(threading.Thread):
                 if self.vits:
                     self.say_vits(r)
                 else:
-                    self.say(r)
-                # paimon_speeker.say(r)
+                    # self.say(r)
+                    paimon_speeker.say(r)
                 # log.info('朗读结束')
             except Exception as e:
                 log.error(e)

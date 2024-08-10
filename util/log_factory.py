@@ -15,7 +15,7 @@ def createLog(name, logfile):
 
     LOG = logging.getLogger(name)
 
-    LOG.setLevel(logging.INFO)  # Log等级总开关
+    LOG.setLevel(logging.DEBUG)  # Log等级总开关
 
     # 第二步，创建一个handler，用于写入日志文件
     logfile = logfile
@@ -23,7 +23,7 @@ def createLog(name, logfile):
     fh = logging.FileHandler(
         logfile, mode='a', encoding='utf8')  # open的打开模式这里可以进行参考
 
-    fh.setLevel(logging.INFO)  # 输出到file的log等级的开关
+    fh.setLevel(logging.DEBUG)  # 输出到file的log等级的开关
 
     # 第三步，再创建一个handler，用于输出到控制台
 
